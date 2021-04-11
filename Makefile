@@ -23,7 +23,7 @@ OBJ_DIR		= obj/
 INC_DIR 	= includes/
 
 # ----- Lists -----
-FUNCS		= 	filler.c
+FUNCS		= 	filler.c init.c parse_player.c
 
 # ----- Auto -----
 HEADER		= $(addprefix $(INC_DIR), $(HEADER_NAME))
